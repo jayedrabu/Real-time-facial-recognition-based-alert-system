@@ -1,10 +1,10 @@
 # Real-time-facial-recognition-based-alert-system
-Real time facial recognition alert system for ATMs. It compares the captured image with the stored image. If the captured image don't match with the stored images, then it will send an email alert to the user's email id. 
+Real time facial recognition alert system for ATMs. It compares the captured image with the stored image. If the captured image doesn't match with the stored images, then it will send an email alert to the user's email id. 
 
 This project is done keeping in mind the security aspect of ATMs. ATM frauds like card duplication or card skimmimg has been happening every now and then.
 I have tried to add a secondary security mechanism in which the camera placed on the ATM would capture the face of the user and then, would send the image to the bank's server.
 Server would compare the captured image with the user's image which is already stored in the bank's database. If it matches, then the user would be allowed to continue the transaction.
-If it don't match, then an OTP and an email containing captured image would be send to the account holder's phone number and email id respectively. 
+If it doesn't match, then an OTP and an email containing the captured image would be sent to the account holder's phone number and email id respectively. 
 I have shown the email id part in the project, the OTP part I couldn't do. If anybody can do the OTP part, they are most welcome to collaborate.
 
 Coding for this system is done in three different python files, namely; datasetcreator.py, trainer.py and recognizer.py.
